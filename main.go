@@ -7,7 +7,7 @@ func main() {
 	server := NewServer("127.0.0.1", 8888)
 	server.Start()
 	// go build -o server.exe main.go server.go user.go
-	// server
+	// server.exe
 	// 或 go run server.go main.go user.go
 	// 然后新开一个终端 chcp 65001 换行 ncat localhost 8888
 }
